@@ -8,5 +8,7 @@
 
 - [Конспект по НОК/НОД](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект НОКНОД.html)
 
+- [Скоро тут что-то появится](https://example.com)
+
   
 

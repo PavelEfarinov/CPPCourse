@@ -8,6 +8,8 @@
 
 - [Конспект по НОК/НОД](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект НОКНОД.html)
 
+- [Конспект по одномерным массивам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы1.html)
+
 - [Скоро тут что-то появится](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
   

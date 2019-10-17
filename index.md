@@ -10,7 +10,7 @@
 
 - [Конспект по одномерным массивам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы1.html)
 
-- [Скоро тут что-то появится](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
+- [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
   
 

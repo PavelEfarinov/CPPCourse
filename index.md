@@ -10,6 +10,8 @@
 
 - [Конспект по одномерным массивам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы1.html)
 
+- [Конспект по двумерным массивам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы2.html)
+
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
   

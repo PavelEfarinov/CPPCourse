@@ -12,6 +12,8 @@
 
 - [Конспект по двумерным массивам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы2.html)
 
+- [Конспект по векторам и строкам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект строки.html)
+
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
   

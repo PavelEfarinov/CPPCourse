@@ -14,6 +14,8 @@
 
 - [Конспект по векторам и строкам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект строки.html)
 
+- [Конспект по функциям](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект функции.html)
+
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
   

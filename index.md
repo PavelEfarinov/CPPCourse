@@ -18,6 +18,8 @@
 
 - [Конспект по указателям](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект указатели.html)
 
+- [Конспект по сортировкам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект сортировки.html)
+
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
   

@@ -22,5 +22,7 @@
 
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
+- [Задания для мазохистов](https://pavelefarinov.github.io/CPPCourse/Задачи по дополнительным темам.html)
+
   
 

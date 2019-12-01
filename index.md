@@ -20,6 +20,8 @@
 
 - [Конспект по сортировкам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект сортировки.html)
 
+- [Конспект по рекурсии](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект рекурсия.html)
+
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
 - [Задания для мазохистов](https://pavelefarinov.github.io/CPPCourse/Задачи по дополнительным темам.html)

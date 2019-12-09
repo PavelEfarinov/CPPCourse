@@ -22,6 +22,8 @@
 
 - [Конспект по рекурсии](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект рекурсия.html)
 
+- [Конспект по жадности](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект жадные алгоритмы.html)
+
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
 - [Задания для мазохистов](https://pavelefarinov.github.io/CPPCourse/Задачи по дополнительным темам.html)

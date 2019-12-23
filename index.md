@@ -26,6 +26,8 @@
 
 - [Конспект по ООП](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект структуры.html)
 
+- [Конспект по бинпоиску и декам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект бинпоиск.html)
+
 - [Тут что-то появилось](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
 
 - [Задания для мазохистов](https://pavelefarinov.github.io/CPPCourse/Задачи по дополнительным темам.html)

@@ -42,6 +42,7 @@
 ---
 
 - [Наследование и прочие ООПшные страдания.](https://pavelefarinov.github.io/CPPCourse/2nd semester/ООП. Продолжение банкета.html)
+- [Паттерны.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Паттерны.html)
 - SFML. Начало.
 - SFML. События, устройства ввода.
 - SFML. Спрайты, текстуры, управление камерой и отображением.

@@ -45,6 +45,7 @@
 - [Паттерны.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Паттерны.html)
 - [Графы.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Графы и DFS.html)
 - [Двоичная куча.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Двоичная куча.html)
+- [BFS.](https://pavelefarinov.github.io/CPPCourse/2nd semester/BFS Дейкстра.html)
 - SFML. Начало.
 - SFML. События, устройства ввода.
 - SFML. Спрайты, текстуры, управление камерой и отображением.

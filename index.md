@@ -47,6 +47,7 @@
 - [Двоичная куча.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Двоичная куча.html)
 - [BFS.](https://pavelefarinov.github.io/CPPCourse/2nd semester/BFS Дейкстра.html)
 - [Этапы сборки.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Этапы сборки программы.html)
+- [Const+Static.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Const static.html)
 - SFML. Начало.
 - SFML. События, устройства ввода.
 - SFML. Спрайты, текстуры, управление камерой и отображением.

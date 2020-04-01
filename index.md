@@ -54,3 +54,4 @@
 - SFML. Свои вертексные сущности. Аудио.
 - SFML. TCP/UDP, Sockets, Packages.
 - [Сетевое взаимодействие 1](https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие.html)
+- [Сетевое взаимодействие 2](https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие. Продолжение.html)

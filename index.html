@@ -31,7 +31,7 @@ input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px;
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
 p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
 p { orphans: 4; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
@@ -82,7 +82,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print {
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
@@ -93,6 +93,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 a img, img a { cursor: pointer; }
 pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
@@ -176,6 +177,19 @@ body {
   	padding: 30px;
     padding-bottom: 100px;
 }
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
 #write > ul:first-child,
 #write > ol:first-child{
     margin-top: 30px;
@@ -504,6 +518,6 @@ header, .context-menu, .megamenu-content, footer{
 </style>
 </head>
 <body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name="репозиторий-для-размещения-информации-по-курсу-с" class="md-header-anchor"></a><span>Репозиторий для размещения информации по курсу С++</span></h1><p><span>Выкладываем конспекты лекций и прочие интересности.</span></p><h2><a name="первый-семестр" class="md-header-anchor"></a><span>Первый семестр</span></h2><p><span>На данный момент имеем:</span></p><ul><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект условия.html'><span>Конспект по условиям</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект циклы.html'><span>Конспект по циклам и кодстайлу</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект НОКНОД.html'><span>Конспект по НОК/НОД</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы1.html'><span>Конспект по одномерным массивам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы2.html'><span>Конспект по двумерным массивам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект строки.html'><span>Конспект по векторам и строкам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект функции.html'><span>Конспект по функциям</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект указатели.html'><span>Конспект по указателям</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект сортировки.html'><span>Конспект по сортировкам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект рекурсия.html'><span>Конспект по рекурсии</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект жадные алгоритмы.html'><span>Конспект по жадности</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект структуры.html'><span>Конспект по ООП</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект бинпоиск.html'><span>Конспект по бинпоиску и декам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Задачи по дополнительным темам.html'><span>Задания для мазохистов</span></a></p><hr /><h2><a name="второй-семестр" class="md-header-anchor"></a><span>Второй семестр</span></h2></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Dec-May.html'><span>План на второе полугодие</span></a></p></li></ul><hr /><ul><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/ООП. Продолжение банкета.html'><span>Наследование и прочие ООПшные страдания.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Паттерны.html'><span>Паттерны.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Графы и DFS.html'><span>Графы.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Двоичная куча.html'><span>Двоичная куча.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/BFS Дейкстра.html'><span>BFS.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Этапы сборки программы.html'><span>Этапы сборки.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Const static.html'><span>Const+Static.</span></a></li><li><span>SFML. Начало.</span></li><li><span>SFML. События, устройства ввода.</span></li><li><span>SFML. Спрайты, текстуры, управление камерой и отображением.</span></li><li><span>SFML. Свои вертексные сущности. Аудио.</span></li><li><span>SFML. TCP/UDP, Sockets, Packages.</span></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие.html'><span>Сетевое взаимодействие 1</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие. Продолжение.html'><span>Сетевое взаимодействие 2</span></a></li></ul></div>
+<div  id='write'  class = 'is-node'><h1><a name="репозиторий-для-размещения-информации-по-курсу-с" class="md-header-anchor"></a><span>Репозиторий для размещения информации по курсу С++</span></h1><p><span>Выкладываем конспекты лекций и прочие интересности.</span></p><h2><a name="первый-семестр" class="md-header-anchor"></a><span>Первый семестр</span></h2><p><span>На данный момент имеем:</span></p><ul><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Типы данных и арифметика.html'><span>Конспект по арифметике и типам данных</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект условия.html'><span>Конспект по условиям</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект циклы.html'><span>Конспект по циклам и кодстайлу</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект НОКНОД.html'><span>Конспект по НОК/НОД</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы1.html'><span>Конспект по одномерным массивам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы2.html'><span>Конспект по двумерным массивам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект строки.html'><span>Конспект по векторам и строкам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект функции.html'><span>Конспект по функциям</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект указатели.html'><span>Конспект по указателям</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект сортировки.html'><span>Конспект по сортировкам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект рекурсия.html'><span>Конспект по рекурсии</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект жадные алгоритмы.html'><span>Конспект по жадности</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект структуры.html'><span>Конспект по ООП</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Notes/Конспект бинпоиск.html'><span>Конспект по бинпоиску и декам</span></a></p></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Задачи по дополнительным темам.html'><span>Задания для мазохистов</span></a></p><hr /><h2><a name="второй-семестр" class="md-header-anchor"></a><span>Второй семестр</span></h2></li><li><p><a href='https://pavelefarinov.github.io/CPPCourse/Dec-May.html'><span>План на второе полугодие</span></a></p></li></ul><hr /><ul><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/ООП. Продолжение банкета.html'><span>Наследование и прочие ООПшные страдания.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Паттерны.html'><span>Паттерны.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Графы и DFS.html'><span>Графы.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Двоичная куча.html'><span>Двоичная куча.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/BFS Дейкстра.html'><span>BFS.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Этапы сборки программы.html'><span>Этапы сборки.</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Const static.html'><span>Const+Static.</span></a></li><li><span>SFML. Начало.</span></li><li><span>SFML. События, устройства ввода.</span></li><li><span>SFML. Спрайты, текстуры, управление камерой и отображением.</span></li><li><span>SFML. Свои вертексные сущности. Аудио.</span></li><li><span>SFML. TCP/UDP, Sockets, Packages.</span></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие.html'><span>Сетевое взаимодействие 1</span></a></li><li><a href='https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие. Продолжение.html'><span>Сетевое взаимодействие 2</span></a></li></ul></div>
 </body>
 </html>

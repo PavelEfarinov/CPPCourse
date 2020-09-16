@@ -5,6 +5,8 @@
 ##	Первый семестр
 
 На данный момент имеем:
+- [Конспект по арифметике и типам данных](https://pavelefarinov.github.io/CPPCourse/Notes/Типы данных и арифметика.html)
+
 - [Конспект по условиям](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект условия.html)
 
 - [Конспект по циклам и кодстайлу](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект циклы.html)

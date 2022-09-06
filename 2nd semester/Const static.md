@@ -35,23 +35,20 @@ int const * const var4;
 ###	const методы
 
 ```c++
-class Date
-{
-public:
-   Date( int mn, int dy, int yr );
-   int getMonth() const;     // A read-only function
-   void setMonth( int mn );   // A write function; can't be const
-private:
-   int month;
+class Date {
+ public:
+  Date(int mn, int dy, int yr);
+  int getMonth() const;     // A read-only function
+  void setMonth(int mn);   // A write function; can't be const
+ private:
+  int month;
 };
 
-int Date::getMonth() const
-{
-   return month;        // Doesn't modify anything
+int Date::getMonth() const {
+  return month;        // Doesn't modify anything
 }
-void Date::setMonth( int mn )
-{
-   month = mn;          // Modifies data member
+void Date::setMonth(int mn) {
+  month = mn;          // Modifies data member
 }
 ```
 
@@ -62,18 +59,16 @@ void Date::setMonth( int mn )
 ```c++
 void square(const int, const int);
  
-int main()
-{
-    const int a = 4;
-    int b = 5;
-    square(a, b);   // 20
-    return 0;
+int main() {
+  const int a = 4;
+  int b = 5;
+  square(a, b);   // 20
+  return 0;
 }
-void square(const int a, const int b)
-{
-    //a = a * a;     так нельзя сделать
-    //b = b * b;     так нельзя сделать
-    std::cout << "In square: a * b = " << a * b << std::endl;
+void square(const int a, const int b) {
+  //a = a * a;     так нельзя сделать
+  //b = b * b;     так нельзя сделать
+  std::cout << "In square: a * b = " << a * b << std::endl;
 }
 ```
 
@@ -86,7 +81,7 @@ void square(const int a, const int b)
 ```c++
 static int global = 10;
 void f() {
-	++global;
+  ++global;
 }
 ```
 
@@ -95,9 +90,9 @@ void f() {
 ###	Статические локальные переменные 
 
 ```c++
-int next (int start = 0) {
-	static int k = start;
-	return k++;
+int next(int start = 0) {
+  static int k = start;
+  return k++;
 }
 ```
 
@@ -111,13 +106,13 @@ int next (int start = 0) {
 
 ```c++
 1.cpp:
-static void test () {
-	cout << " A \n";
+static void test() {
+  cout << " A \n";
 }
 
 2.cpp:
-static void test () {
-	cout << " B \n";
+static void test() {
+  cout << " B \n";
 }
 ```
 
@@ -130,19 +125,16 @@ static void test () {
 Для доступа к таким полям не требуется создание объекта. Значение такой переменной будет **общим** для **всех** объектов класса.
 
 ```c++
-class A 
-{
-    private:
-    static int mInstanceNumber = 0; // Переменная хранит в себе количество "живых" объектов
-    public:
-    A()
-    {
-        A::mInstanceNumber++;
-    }
-    ~A()
-    {
-        A::mInstanceNumber--;
-    }
+class A {
+ private:
+  static int mInstanceNumber = 0; // Переменная хранит в себе количество "живых" объектов
+ public:
+  A() {
+    A::mInstanceNumber++;
+  }
+  ~A() {
+    A::mInstanceNumber--;
+  }
 }
 ```
 
@@ -151,23 +143,19 @@ class A
 Статические методы — это функции, определённые внутри класса и имеющие доступ к закрытым полям и методам.
 
 ```c++
-class A 
-{
-    private:
-    static int mInstanceNumber = 0; // Переменная хранит в себе количество "живых" объектов
-    public:
-    static int getCurrentIntencesNumber()
-    {
-        return mInstanceNumber;
-    }
-    A()
-    {
-        A::mInstanceNumber++;
-    }
-    ~A()
-    {
-        A::mInstanceNumber--;
-    }
+class A {
+ private:
+  static int mInstanceNumber = 0; // Переменная хранит в себе количество "живых" объектов
+ public:
+  static int getCurrentIntencesNumber() {
+    return mInstanceNumber;
+  }
+  A() {
+    A::mInstanceNumber++;
+  }
+  ~A() {
+      A::mInstanceNumber--;
+  }
 }
 
 ...

@@ -97,15 +97,15 @@
 
 ```pseudocode
 function dfs(u: int):
-	color[u] = gray           
-	for v: (u, v) in G                   
-		if color[v] == white
-			dfs(v)
-	color[u] = black   
-	
+  color[u] = gray           
+  for v: (u, v) in G                   
+    if color[v] == white
+      dfs(v)
+  color[u] = black   
+  
 function doDfs(G[n]: Graph): // принимает граф G с кол-вом вершин n и выполняет DFS в нем
    color = array[n, white]
-                   	   
+   
    for i = 1 to n             
       if color[i] == white                
          dfs(i)

@@ -1,6 +1,7 @@
 #	BFS и Дейкстра
 
-[TOC]
+* toc
+{:toc}
 
 ##	BFS
 

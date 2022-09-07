@@ -1,59 +1,37 @@
-#	Репозиторий для размещения информации по курсу С++
-
-Выкладываем конспекты лекций и прочие интересности.
-
 ##	Первый семестр
 
 На данный момент имеем:
-- [Конспект по арифметике и типам данных](https://pavelefarinov.github.io/CPPCourse/Notes/Типы данных и арифметика.html)
-
-- [Конспект по условиям](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект условия.html)
-
-- [Конспект по циклам и кодстайлу](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект циклы.html)
-
-- [Конспект по НОК/НОД](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект НОКНОД.html)
-
-- [Конспект по одномерным массивам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы1.html)
-
-- [Конспект по двумерным массивам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект массивы2.html)
-
-- [Конспект по векторам и строкам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект строки.html)
-
-- [Конспект по функциям](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект функции.html)
-
-- [Конспект по указателям](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект указатели.html)
-
-- [Конспект по сортировкам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект сортировки.html)
-
-- [Конспект по рекурсии](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект рекурсия.html)
-
-- [Конспект по жадности](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект жадные алгоритмы.html)
-
-- [Конспект по ООП](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект структуры.html)
-
-- [Конспект по бинпоиску и декам](https://pavelefarinov.github.io/CPPCourse/Notes/Конспект бинпоиск.html)
-
-- [Задания для мазохистов](https://pavelefarinov.github.io/CPPCourse/Задачи по дополнительным темам.html)
-
-  ---
-
-  ## Второй семестр
-
-- [План на второе полугодие](https://pavelefarinov.github.io/CPPCourse/Dec-May.html)
+- [Конспект по арифметике и типам данных](Notes/Term_1/Типы данных и арифметика.md)
+- [Конспект по условиям](Notes/Term_1/Конспект условия.md)
+- [Конспект по циклам и кодстайлу](Notes/Term_1/Конспект циклы.md)
+- [Конспект по НОК/НОД](Notes/Term_1/Конспект НОКНОД.md)
+- [Конспект по одномерным массивам](Notes/Term_1/Конспект массивы1.md)
+- [Конспект по двумерным массивам](Notes/Term_1/Конспект массивы2.md)
+- [Конспект по векторам и строкам](Notes/Term_1/Конспект строки.md)
+- [Конспект по функциям](Notes/Term_1/Конспект функции.md)
+- [Конспект по указателям](Notes/Term_1/Конспект указатели.md)
+- [Конспект по сортировкам](Notes/Term_1/Конспект сортировки.md)
+- [Конспект по рекурсии](Notes/Term_1/Конспект рекурсия.md)
+- [Конспект по жадности](Notes/Term_1/Конспект жадные алгоритмы.md)
+- [Конспект по ООП](Notes/Term_1/Конспект структуры.md)
+- [Конспект по бинпоиску и декам](Notes/Term_1/Конспект бинпоиск.md)
+- [Задания для мазохистов](Задачи по дополнительным темам.md)
 
 ---
 
-- [Наследование и прочие ООПшные страдания.](https://pavelefarinov.github.io/CPPCourse/2nd semester/ООП. Продолжение банкета.html)
-- [Паттерны.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Паттерны.html)
-- [Графы.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Графы и DFS.html)
-- [Двоичная куча.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Двоичная куча.html)
-- [BFS.](https://pavelefarinov.github.io/CPPCourse/2nd semester/BFS Дейкстра.html)
-- [Этапы сборки.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Этапы сборки программы.html)
-- [Const+Static.](https://pavelefarinov.github.io/CPPCourse/2nd semester/Const static.html)
+## Второй семестр
+
+- [Наследование и прочие ООПшные страдания.](Notes/Term_2//ООП. Продолжение банкета.md)
+- [Паттерны.](Notes/Term_2//Паттерны.md)
+- [Графы.](Notes/Term_2//Графы и DFS.md)
+- [Двоичная куча.](Notes/Term_2//Двоичная куча.md)
+- [BFS.](Notes/Term_2//BFS Дейкстра.md)
+- [Этапы сборки.](Notes/Term_2//Этапы сборки программы.md)
+- [Const+Static.](Notes/Term_2//Const static.md)
 - SFML. Начало.
 - SFML. События, устройства ввода.
 - SFML. Спрайты, текстуры, управление камерой и отображением.
 - SFML. Свои вертексные сущности. Аудио.
 - SFML. TCP/UDP, Sockets, Packages.
-- [Сетевое взаимодействие 1](https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие.html)
-- [Сетевое взаимодействие 2](https://pavelefarinov.github.io/CPPCourse/2nd semester/Сетевое взаимодействие. Продолжение.html)
+- [Сетевое взаимодействие 1](Notes/Term_2//Сетевое взаимодействие.md)
+- [Сетевое взаимодействие 2](Notes/Term_2//Сетевое взаимодействие. Продолжение.md)

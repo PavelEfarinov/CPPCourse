@@ -1,6 +1,7 @@
 #	Const, static, работа с файлами
 
-[TOC]
+* toc
+{:toc}
 
 ##	Ключевое слово const
 
